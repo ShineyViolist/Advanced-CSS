@@ -1,0 +1,101 @@
+h1 {
+    color: white;
+}
+
+/** {
+    border: solid;
+}*/
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    padding: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.menu a{
+    padding: 20px;
+    color: green;
+}
+
+.item{
+    position: relative;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    color: springgreen;
+}
+
+.item:hover p{
+    opacity: 1;
+    color: royalblue;
+}
+
+.item a img{
+    opacity: 0.5;
+}
+
+.item:hover a img{
+    opacity: 1;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: peru;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+table{
+    margin: 30px;
+    padding: 20px;
+    border: solid;
+    background-color: skyblue;
+    /*border-collapse: collapse;*/
+}
+
+table td{
+    padding: 30px;
+    color: silver;
+    border:solid;
+    background-color: slateblue;
+    border-collapse: collapse;
+}
